@@ -1,0 +1,7 @@
+from guizero import App, Text, PushButton
+from plugin import plugin
+
+@plugin("gui")
+def test(jarvis, s):
+    jarvis.say(s)
+    
